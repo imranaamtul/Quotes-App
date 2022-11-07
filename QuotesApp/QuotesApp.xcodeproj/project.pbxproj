@@ -16,6 +16,8 @@
 		4D4B2C1329190652009C0FCF /* QuotesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B2C1229190652009C0FCF /* QuotesAppTests.swift */; };
 		4D4B2C1D29190652009C0FCF /* QuotesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B2C1C29190652009C0FCF /* QuotesAppUITests.swift */; };
 		4D4B2C1F29190652009C0FCF /* QuotesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B2C1E29190652009C0FCF /* QuotesAppUITestsLaunchTests.swift */; };
+		4DB7F364291911B3009C3AD2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7F363291911B3009C3AD2 /* DataModel.swift */; };
+		4DB7F36A291940B2009C3AD2 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7F369291940B2009C3AD2 /* QuotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4D4B2C1829190652009C0FCF /* QuotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4B2C1C29190652009C0FCF /* QuotesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAppUITests.swift; sourceTree = "<group>"; };
 		4D4B2C1E29190652009C0FCF /* QuotesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DB7F363291911B3009C3AD2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4DB7F369291940B2009C3AD2 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		4D4B2BEF2919064F009C0FCF = {
 			isa = PBXGroup;
 			children = (
+				4DB7F369291940B2009C3AD2 /* QuotesViewController.swift */,
+				4DB7F363291911B3009C3AD2 /* DataModel.swift */,
 				4D4B2BFA2919064F009C0FCF /* QuotesApp */,
 				4D4B2C1129190652009C0FCF /* QuotesAppTests */,
 				4D4B2C1B29190652009C0FCF /* QuotesAppUITests */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D4B2C002919064F009C0FCF /* ViewController.swift in Sources */,
+				4DB7F364291911B3009C3AD2 /* DataModel.swift in Sources */,
+				4DB7F36A291940B2009C3AD2 /* QuotesViewController.swift in Sources */,
 				4D4B2BFC2919064F009C0FCF /* AppDelegate.swift in Sources */,
 				4D4B2BFE2919064F009C0FCF /* SceneDelegate.swift in Sources */,
 			);
